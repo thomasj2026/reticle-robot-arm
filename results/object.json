@@ -1,0 +1,68 @@
+{
+  "suite": "libero_object",
+  "robot": "UR5e",
+  "policy": "scripted",
+  "tasks": [
+    {
+      "task_id": 0,
+      "language": "pick up the alphabet soup and place it in the basket",
+      "success_rate": 0.0,
+      "episodes": 5
+    },
+    {
+      "task_id": 1,
+      "language": "pick up the cream cheese and place it in the basket",
+      "success_rate": 0.2,
+      "episodes": 5
+    },
+    {
+      "task_id": 2,
+      "language": "pick up the salad dressing and place it in the basket",
+      "success_rate": 0.0,
+      "episodes": 5
+    },
+    {
+      "task_id": 3,
+      "language": "pick up the bbq sauce and place it in the basket",
+      "success_rate": 0.6,
+      "episodes": 5
+    },
+    {
+      "task_id": 4,
+      "language": "pick up the ketchup and place it in the basket",
+      "success_rate": 0.0,
+      "episodes": 5
+    },
+    {
+      "task_id": 5,
+      "language": "pick up the tomato sauce and place it in the basket",
+      "success_rate": 0.0,
+      "episodes": 5
+    },
+    {
+      "task_id": 6,
+      "language": "pick up the butter and place it in the basket",
+      "success_rate": 0.0,
+      "episodes": 5
+    },
+    {
+      "task_id": 7,
+      "language": "pick up the milk and place it in the basket",
+      "success_rate": 0.0,
+      "episodes": 5
+    },
+    {
+      "task_id": 8,
+      "language": "pick up the chocolate pudding and place it in the basket",
+      "success_rate": 1.0,
+      "episodes": 5
+    },
+    {
+      "task_id": 9,
+      "language": "pick up the orange juice and place it in the basket",
+      "success_rate": 0.0,
+      "episodes": 5
+    }
+  ],
+  "overall_success_rate": 0.18
+}

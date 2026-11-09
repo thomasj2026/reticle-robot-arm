@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libero6dof"
+version = "0.1.0"
+description = "LIBERO simulation framework for 6-DOF robot arms and VLA evaluation"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "h5py",
+    "pyyaml",
+    "msgpack",
+    "websockets>=12",
+    "opencv-python-headless",
+]
+
+[project.optional-dependencies]
+# simulator side (Python 3.10/3.11): LIBERO + robosuite + MuJoCo
+sim = [
+    "robosuite==1.4.0",
+    "mujoco==3.2.3",
+    "numpy<2",
+    "bddl==1.0.1",
+    "gym==0.25.2",
+    "easydict",
+    "hydra-core",
+    "future",
+    "cloudpickle",
+    "termcolor",
+    "numba",
+    "scipy",
+    "matplotlib",
+    "imageio",
+    "imageio-ffmpeg",
+    "opencv-python-headless<4.11",
+    "pyopengl",
+    "torch",
+]
+# policy side (Python 3.12): dataset conversion, training, serving LeRobot checkpoints
+lerobot = ["lerobot[smolvla,dataset,training]==0.7.0", "marimo"]
+
+[tool.setuptools.packages.find]
+include = ["libero6dof*"]

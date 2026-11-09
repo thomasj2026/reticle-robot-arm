@@ -1,0 +1,56 @@
+{
+  "suite": "libero_goal",
+  "robot": "UR5e",
+  "policy": "scripted",
+  "tasks": [
+    {
+      "task_id": 1,
+      "language": "put the bowl on the stove",
+      "success_rate": 0.6666666666666666,
+      "episodes": 3
+    },
+    {
+      "task_id": 2,
+      "language": "put the wine bottle on top of the cabinet",
+      "success_rate": 0.0,
+      "episodes": 3
+    },
+    {
+      "task_id": 3,
+      "language": "open the top drawer and put the bowl inside",
+      "success_rate": 0.0,
+      "episodes": 3
+    },
+    {
+      "task_id": 4,
+      "language": "put the bowl on top of the cabinet",
+      "success_rate": 0.0,
+      "episodes": 3
+    },
+    {
+      "task_id": 5,
+      "language": "push the plate to the front of the stove",
+      "success_rate": 0.3333333333333333,
+      "episodes": 3
+    },
+    {
+      "task_id": 6,
+      "language": "put the cream cheese in the bowl",
+      "success_rate": 0.0,
+      "episodes": 3
+    },
+    {
+      "task_id": 8,
+      "language": "put the bowl on the plate",
+      "success_rate": 0.3333333333333333,
+      "episodes": 3
+    },
+    {
+      "task_id": 9,
+      "language": "put the wine bottle on the rack",
+      "success_rate": 0.0,
+      "episodes": 3
+    }
+  ],
+  "overall_success_rate": 0.16666666666666666
+}

@@ -1,0 +1,6 @@
+name: MyArm
+mjcf: /absolute/path/to/my_arm/robot.xml
+gripper: Robotiq85GripperFixed       # any robosuite gripper, e.g. PandaGripper, Robotiq140Gripper
+home_qpos: [0.0, -1.57, 1.57, -1.57, -1.57, 0.0]   # overwritten by calibrate --write
+mount: RethinkMount                  # or null for no pedestal
+joint_damping: null                  # e.g. [0.1, 0.1, 0.1, 0.1, 0.05, 0.05]
